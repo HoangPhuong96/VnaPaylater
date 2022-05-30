@@ -83,10 +83,10 @@ const Home = () => {
         const resultCode = get(response, "resultCode", "");
         const resultMessage = get(response, "resultMessage", "");
         if (resultCode === 0) {
-          setLoaded(false);
+          // setLoaded(false);
           router.push(`./detail?pnr=${value}`, `./detail?pnr=${value}`);
         } else {
-          setModalShow(true);
+          // setModalShow(true);
         }
         setResult({
           resultCode,
@@ -102,12 +102,14 @@ const Home = () => {
   };
 
   const onClick = async () => {
-    if (!validate(value)) {
-      setErrorCode(true);
-    } else {
-      setErrorCode(false);
-      getData(value);
-    }
+    router.push(`./detail?pnr=${value}`, `./detail?pnr=${value}`);
+    // getData(value);
+    // if (!validate(value)) {
+    //   setErrorCode(true);
+    // } else {
+    //   setErrorCode(false);
+    //   getData(value);
+    // }
   };
 
   return (
@@ -115,29 +117,29 @@ const Home = () => {
       style={{ backgroundColor: !loaded ? "transparent" : "rgba(0,0,0,0.1)" }}
     >
       <>
-        <Modal
-          show={loaded}
-          centered
-          aria-labelledby="contained-modal-title-vcenter"
-          contentClassName={styles["content-modal-loading"]}
-        >
-          <div style={{ backgroundColor: "transparent" }}>
-            <Modal.Body
-              className={styles["content-modal"]}
-              style={{
-                alignSelf: "center",
-                justifyContent: "center",
-                textAlign: "center",
-              }}
-            >
-              <div className={styles["content-modal"]}>
-                <Spinner animation="border" role="status">
-                  <span className="visually-hidden">Loading...</span>
-                </Spinner>
-              </div>
-            </Modal.Body>
-          </div>
-        </Modal>
+        {/*<Modal*/}
+        {/*  show={loaded}*/}
+        {/*  centered*/}
+        {/*  aria-labelledby="contained-modal-title-vcenter"*/}
+        {/*  contentClassName={styles["content-modal-loading"]}*/}
+        {/*>*/}
+        {/*  <div style={{ backgroundColor: "transparent" }}>*/}
+        {/*    <Modal.Body*/}
+        {/*      className={styles["content-modal"]}*/}
+        {/*      style={{*/}
+        {/*        alignSelf: "center",*/}
+        {/*        justifyContent: "center",*/}
+        {/*        textAlign: "center",*/}
+        {/*      }}*/}
+        {/*    >*/}
+        {/*      <div className={styles["content-modal"]}>*/}
+        {/*        <Spinner animation="border" role="status">*/}
+        {/*          <span className="visually-hidden">Loading...</span>*/}
+        {/*        </Spinner>*/}
+        {/*      </div>*/}
+        {/*    </Modal.Body>*/}
+        {/*  </div>*/}
+        {/*</Modal>*/}
         <div className={styles["Page-Wrapper-Home"]}>
           <Row className={styles["row-content"]}>
             <Col
