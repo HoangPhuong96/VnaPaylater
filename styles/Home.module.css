@@ -1,0 +1,190 @@
+.icon {
+  width: 36px;
+  height: 36px;
+}
+
+.Page-Wrapper-Home {
+  padding: 0 166px 0;
+  padding-top: 32px;
+}
+
+.sub-text {
+  margin-left: 12px; 
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #303233;
+}
+
+.content{
+  z-index: 0;
+}
+
+.content-modal-loading{
+  background-color: transparent;
+  border:none
+}
+
+.sub-row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-content {
+  background-image: url("../src/assets/images/vna-background.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.submit-button {
+  background-color: #a60064;
+  border: #a60064;
+  border-radius: 5px;
+  height: 52px;
+  min-width: 100%;
+  color: white;
+}
+
+.submit-button-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 34px;
+}
+
+.container-input {
+  position:relative;
+  margin-top:44px ;
+}
+
+.booking-code-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  /* border: solid 1px #e8e8e8; */
+  background-color: #fff;
+  margin: 8px 0 0;
+  padding: 13px 16px;
+}
+
+.title-input {
+  position:absolute;
+  height: 16px;
+  margin: 0 8px 0 8px;
+  font-size: 12px;
+  color: #727272;
+  background-color: #fff;
+  padding: 0 10px 0 10px;
+}
+
+.container-card-input {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+
+.content-card-input {
+  padding: 62px 32px 62px 32px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 8px;
+  right:63px;
+  top: 100px;
+  left: 182px;
+}
+
+
+.background-image-input-mobile{
+  background-image: url('../src/assets/images/bg_mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-content {
+  width: 327px;
+  padding: 12px 0 0;
+  border-radius: 8px;
+}
+
+.dialog-content {
+  justify-content: center;
+}
+
+
+/* response */
+
+/* Mobile: width < 740px */
+@media only screen and (max-width:739px) {
+
+  .card-input-mobile {
+    margin: 24px;
+  }
+
+  .row-content {
+    display: none
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  .Page-Wrapper-Home {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width :992px) and (max-width: 1199px) {
+  .content-card-input{
+    top: 20px;
+    right: 30px;
+    left: 120px;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width :1200px) and (max-width: 1399px) {
+  .content-card-input{
+    top: 20px;
+    right: 30px;
+    left: 120px
+  }
+}
+
+
+
+@media screen and (min-width : 1650px) {
+  .content-card-input{
+    left: auto;
+  }
+}
+
+
+@media only screen and (min-width: 945px) {
+  .container-mobile {
+    display: none
+  }
+}
+
+/* Tablet width >= 740px and width < 830px */
+@media only screen and (min-width:720px) and (max-width:1024px) {
+  
+  .content-card-input{
+    top: 20px;
+    right: 30px;
+    left: 120px;
+    padding: 30px;
+  }
+
+  .container-mobile {
+    display: none
+  }
+}

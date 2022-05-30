@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) {
+    .header-wrapper {
+        padding: 16px;
+    }
+
+    .footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .mid-space {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer-col-right {
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+}

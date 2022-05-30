@@ -1,0 +1,44 @@
+.icon {
+    width: 36px;
+    height: 36px;
+}
+
+.sub-text {
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.sub-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-content {
+    align-items: end;
+}
+
+.submit-button {
+    background-color: #a60064;
+    border: #a60064;
+    border-radius: 5px;
+    height: 32px;
+    min-width: 100px;
+    color: white;
+}
+
+.submit-button-section {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.booking-code-input {
+    width: 100%;
+}
+
+.card-input {
+    margin-top: 20px;
+}

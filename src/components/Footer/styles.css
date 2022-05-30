@@ -1,0 +1,11 @@
+.image-download {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    margin: 100px 50px 50px 50px;
+}

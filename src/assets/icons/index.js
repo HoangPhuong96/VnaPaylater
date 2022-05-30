@@ -1,0 +1,23 @@
+/* eslint-disable import/no-anonymous-default-export */
+export default {
+  icon_fast: require("./icon-fast.png"),
+  icon_bitmaps: require("./icon_bitmaps.png"),
+  icon_mail: require("./icon_mail.png"),
+  icon_call_phone: require("./icon_call_phone.png"),
+  icon_checklist: require("./icon_checklist.png"),
+  icon_money: require("./icon_money.png"),
+  icon_security: require("./icon_security.png"),
+  icon_airplane: require("./icon_airplane.png"),
+  icon_close: require("./icon_close.png"),
+  icon_mockup1: require("./mockup-iphone1.png"),
+  icon_mockup2: require("./mockup-iphone2.png"),
+  icon_mockup3: require("./mockup-iphone3.png"),
+  icon_logo_airline: require("./logo_airline.png"),
+  icon_dir_error: require("./icon_dir_error.png"),
+  icon_chain: require("./icon_chain.png"),
+  icon_momo: require("./icon_momo.png"),
+  icon_success: require("./icon_success.png"),
+  icon_fail: require("./icon_fail.png"),
+  icon_logo_vna: require("./logo_vna.png"),
+  icon_logo_light: require("./icon_momo_light.png"),
+};

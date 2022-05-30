@@ -1,0 +1,18 @@
+.header-wrapper {
+    padding: 25px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.switch-lang {
+    display: flex;
+    justify-items: center;
+}
+
+.switch-box {
+    display: flex;
+    justify-content: end;
+}
