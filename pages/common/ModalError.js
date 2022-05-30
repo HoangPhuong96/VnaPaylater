@@ -5,7 +5,7 @@ import icons from "../../src/assets/icons";
 import styled from "styled-components";
 import styles from "../../styles/Home.module.css";
 import { useState } from "react";
-export const ModalError = (props) => {
+const ModalError = (props) => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -49,6 +49,8 @@ export const ModalError = (props) => {
     </Modal>
   );
 };
+
+export default ModalError
 
 const TxtHeader = styled.p`
   font-size: 16px;

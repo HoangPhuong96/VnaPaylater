@@ -12,7 +12,7 @@ import images from "../src/assets/images";
 import BgImage from "../src/assets/images/bg-artboard-mask.png";
 import { MyVerticallyCenteredModal } from "../src/components/Modal";
 import { useRouter } from "next/router";
-import { ModalError } from "./common/ModalError";
+import  ModalError  from "./common/ModalError";
 import CallApi from "../src/service/mainApi";
 import { get } from "lodash";
 
